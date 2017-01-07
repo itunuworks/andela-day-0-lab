@@ -36,4 +36,19 @@ describe("Fizz Buzz tests ", function() {
     expect(myApp.fizzBuzz(101)).toBe(101);
   });
 
+  it("should return `19` for number indivisible by 3 and 5", function() {
+    expect(myApp.fizzBuzz(19)).toBe(19);
+  });
+
+  it("should return `FizzBuzz` for 60", function() {
+    expect(myApp.fizzBuzz(60)).toBe('FizzBuzz');
+  });
+
+  it("should return `Buzz` for 1105", function() {
+    expect(myApp.fizzBuzz(1105)).toBe('Buzz');
+  });
+
+  it("should return `Fizz` for 999", function() {
+    expect(myApp.fizzBuzz(999)).toBe('Fizz');
+  });
 })
