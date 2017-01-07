@@ -1,0 +1,19 @@
+{
+  "name": "andela-day-0-lab",
+  "version": "1.0.0",
+  "description": "This is the solution to my Day 0 Lab. This contains the TDD development of 3 Functions.",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itunuworks/andela-day-0-lab.git"
+  },
+  "author": "Itunuloluwa Fatoki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itunuworks/andela-day-0-lab/issues"
+  },
+  "homepage": "https://github.com/itunuworks/andela-day-0-lab#readme"
+}
